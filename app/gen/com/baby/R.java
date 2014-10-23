@@ -1530,164 +1530,164 @@ containing a value of this type.
         public static final int widget_selectable_bg=0x7f020057;
     }
     public static final class id {
-        public static final int action_bt=0x7f070059;
-        public static final int actionbar_user=0x7f07002f;
-        public static final int afterDescendants=0x7f070027;
-        public static final int all=0x7f070025;
-        public static final int always=0x7f07000d;
-        public static final int alwaysScroll=0x7f07002b;
-        public static final int animation=0x7f070023;
-        public static final int anyRtl=0x7f07001a;
-        public static final int auto=0x7f07000a;
-        public static final int beforeDescendants=0x7f070026;
-        public static final int blocksDescendants=0x7f070028;
-        public static final int board_tv=0x7f07007b;
-        public static final int button_bar=0x7f070072;
-        public static final int button_container=0x7f070032;
-        public static final int center=0x7f07001e;
-        public static final int clock_center=0x7f070090;
-        public static final int clock_digital_time=0x7f070091;
-        public static final int clock_face=0x7f07008d;
-        public static final int clock_face_hour=0x7f07008f;
-        public static final int clock_face_minute=0x7f07008e;
-        public static final int clock_target=0x7f07008c;
-        public static final int comment_bt=0x7f070047;
-        public static final int comment_et=0x7f070046;
-        public static final int comment_list_container=0x7f07004c;
-        public static final int comment_tv=0x7f07004a;
-        public static final int container=0x7f070053;
-        public static final int container_auth=0x7f070094;
-        public static final int container_unauth=0x7f070097;
-        public static final int count_bar=0x7f07007c;
-        public static final int date_tv=0x7f07004b;
-        public static final int defaultPosition=0x7f070010;
-        public static final int desc_tv=0x7f07004d;
-        public static final int disabled=0x7f070029;
-        public static final int divider=0x7f070030;
-        public static final int empty_view=0x7f07009a;
-        public static final int empty_view_wrapper=0x7f070051;
-        public static final int empty_vw=0x7f070050;
-        public static final int empty_wrapper=0x7f070054;
-        public static final int firstStrong=0x7f070019;
-        public static final int follower=0x7f07006b;
-        public static final int following=0x7f070069;
-        public static final int get_started=0x7f070096;
-        public static final int gone=0x7f070002;
-        public static final int gravity=0x7f07001b;
-        public static final int hardware=0x7f070014;
-        public static final int high=0x7f07000c;
-        public static final int horizontal=0x7f070004;
-        public static final int icon_iv=0x7f070048;
-        public static final int ifContentScrolls=0x7f07000e;
-        public static final int inherit=0x7f070017;
-        public static final int insideInset=0x7f070007;
-        public static final int insideOverlay=0x7f070006;
-        public static final int invisible=0x7f070001;
-        public static final int left=0x7f070011;
-        public static final int like_count=0x7f07007d;
-        public static final int loading_pb=0x7f070052;
-        public static final int locale=0x7f070018;
-        public static final int login_bt=0x7f070098;
-        public static final int low=0x7f07000b;
-        public static final int ltr=0x7f070015;
-        public static final int main0_viewpager=0x7f07003a;
-        public static final int main1_fragment_item_imageview=0x7f07005e;
-        public static final int main1_fragment_item_phototext=0x7f070062;
-        public static final int main1_fragment_item_progressbar=0x7f07005f;
-        public static final int main1_fragment_item_start=0x7f070061;
-        public static final int main1_fragment_item_surfaceview=0x7f07005d;
-        public static final int main1_fragment_item_type=0x7f070060;
-        public static final int main1_user_home_follower=0x7f07006a;
-        public static final int main1_user_home_following=0x7f070068;
-        public static final int main1_user_home_message=0x7f07006c;
-        public static final int main1_user_home_profile_image=0x7f070064;
-        public static final int main1_user_home_profile_name=0x7f070065;
-        public static final int main1_user_home_profile_stats=0x7f070066;
-        public static final int main1_user_home_profilelayout=0x7f070063;
-        public static final int main1_user_home_settings_layout=0x7f070067;
-        public static final int main1_user_profile_avatar=0x7f07006e;
-        public static final int main1_user_profile_name=0x7f07006f;
-        public static final int main2_header_layout=0x7f070070;
-        public static final int main2_list_item_layout=0x7f070075;
-        public static final int main2_listview=0x7f07004f;
-        public static final int main_header_layout=0x7f070080;
-        public static final int main_header_logo=0x7f070084;
-        public static final int main_header_notif_container=0x7f070081;
-        public static final int main_header_notif_text=0x7f070082;
-        public static final int main_header_search=0x7f070085;
-        public static final int main_header_user=0x7f070083;
-        public static final int main_viewpager=0x7f070038;
-        public static final int menu_settings=0x7f07009d;
-        public static final int message=0x7f07006d;
-        public static final int message_tv=0x7f070056;
-        public static final int multipleChoice=0x7f07002d;
-        public static final int multipleChoiceModal=0x7f07002e;
-        public static final int name_tv=0x7f070049;
-        public static final int never=0x7f07000f;
-        public static final int no=0x7f070022;
-        public static final int no_internet=0x7f070055;
-        public static final int none=0x7f070003;
-        public static final int normal=0x7f07002a;
-        public static final int outsideInset=0x7f070009;
-        public static final int outsideOverlay=0x7f070008;
-        public static final int photo_bt=0x7f070073;
-        public static final int pin_container=0x7f070076;
-        public static final int pin_iv=0x7f070077;
-        public static final int pinscroll=0x7f070092;
-        public static final int ptr_id_header=0x7f070086;
-        public static final int ptr_id_image=0x7f070087;
-        public static final int ptr_id_last_updated=0x7f07008b;
-        public static final int ptr_id_spinner=0x7f070088;
-        public static final int ptr_id_text=0x7f07008a;
-        public static final int ptr_id_textwrapper=0x7f070089;
-        public static final int refresh_bt=0x7f070057;
-        public static final int repin_count=0x7f07007e;
-        public static final int retry_container=0x7f070093;
-        public static final int right=0x7f070012;
-        public static final int rtl=0x7f070016;
-        public static final int scrolling=0x7f070024;
-        public static final int search_et=0x7f07007f;
-        public static final int selected=0x7f07009c;
-        public static final int signup_bt=0x7f070099;
-        public static final int singleChoice=0x7f07002c;
-        public static final int software=0x7f070013;
-        public static final int subtitle_tv=0x7f070071;
-        public static final int textEnd=0x7f07001d;
-        public static final int textStart=0x7f07001c;
-        public static final int text_container=0x7f07007a;
-        public static final int text_tv=0x7f070095;
-        public static final int time_scrollbar=0x7f07005c;
-        public static final int timeline_listview=0x7f07005b;
-        public static final int timeline_track=0x7f07005a;
-        public static final int title_tv=0x7f070058;
-        public static final int try_again_empty=0x7f07009b;
-        public static final int user_board_container=0x7f070078;
-        public static final int user_follow_btn=0x7f070033;
-        public static final int user_header_userimage=0x7f070035;
-        public static final int user_header_username=0x7f070036;
-        public static final int user_header_userstats=0x7f070037;
-        public static final int user_iv=0x7f070079;
-        public static final int user_profile=0x7f070031;
-        public static final int user_unfollow_btn=0x7f070034;
-        public static final int user_viewpager=0x7f07004e;
-        public static final int vertical=0x7f070005;
-        public static final int video_bt=0x7f070074;
-        public static final int videoshoot_back=0x7f07003d;
-        public static final int videoshoot_camere_framelayout=0x7f07003f;
-        public static final int videoshoot_cancel_iv=0x7f070044;
-        public static final int videoshoot_done=0x7f07003e;
-        public static final int videoshoot_photo_iv=0x7f070042;
-        public static final int videoshoot_progressbar=0x7f07003c;
-        public static final int videoshoot_start_iv=0x7f070043;
-        public static final int videoshoot_surfaceview=0x7f070040;
-        public static final int videoshoot_switchbtn=0x7f070045;
-        public static final int videoshoot_time_relayout=0x7f07003b;
-        public static final int videoshoot_videoview=0x7f070041;
-        public static final int viewEnd=0x7f070020;
-        public static final int viewStart=0x7f07001f;
-        public static final int view_pager_layout=0x7f070039;
-        public static final int visible=0x7f070000;
-        public static final int yes=0x7f070021;
+        public static final int action_bt=0x7f0a0059;
+        public static final int actionbar_user=0x7f0a002f;
+        public static final int afterDescendants=0x7f0a0026;
+        public static final int all=0x7f0a0023;
+        public static final int always=0x7f0a000d;
+        public static final int alwaysScroll=0x7f0a0029;
+        public static final int animation=0x7f0a0024;
+        public static final int anyRtl=0x7f0a0019;
+        public static final int auto=0x7f0a000a;
+        public static final int beforeDescendants=0x7f0a0027;
+        public static final int blocksDescendants=0x7f0a0028;
+        public static final int board_tv=0x7f0a007b;
+        public static final int button_bar=0x7f0a0072;
+        public static final int button_container=0x7f0a0032;
+        public static final int center=0x7f0a001b;
+        public static final int clock_center=0x7f0a0090;
+        public static final int clock_digital_time=0x7f0a0091;
+        public static final int clock_face=0x7f0a008d;
+        public static final int clock_face_hour=0x7f0a008f;
+        public static final int clock_face_minute=0x7f0a008e;
+        public static final int clock_target=0x7f0a008c;
+        public static final int comment_bt=0x7f0a0047;
+        public static final int comment_et=0x7f0a0046;
+        public static final int comment_list_container=0x7f0a004c;
+        public static final int comment_tv=0x7f0a004a;
+        public static final int container=0x7f0a0053;
+        public static final int container_auth=0x7f0a0094;
+        public static final int container_unauth=0x7f0a0097;
+        public static final int count_bar=0x7f0a007c;
+        public static final int date_tv=0x7f0a004b;
+        public static final int defaultPosition=0x7f0a0010;
+        public static final int desc_tv=0x7f0a004d;
+        public static final int disabled=0x7f0a002a;
+        public static final int divider=0x7f0a0030;
+        public static final int empty_view=0x7f0a009a;
+        public static final int empty_view_wrapper=0x7f0a0051;
+        public static final int empty_vw=0x7f0a0050;
+        public static final int empty_wrapper=0x7f0a0054;
+        public static final int firstStrong=0x7f0a001a;
+        public static final int follower=0x7f0a006b;
+        public static final int following=0x7f0a0069;
+        public static final int get_started=0x7f0a0096;
+        public static final int gone=0x7f0a0000;
+        public static final int gravity=0x7f0a001c;
+        public static final int hardware=0x7f0a0013;
+        public static final int high=0x7f0a000b;
+        public static final int horizontal=0x7f0a0003;
+        public static final int icon_iv=0x7f0a0048;
+        public static final int ifContentScrolls=0x7f0a000e;
+        public static final int inherit=0x7f0a0015;
+        public static final int insideInset=0x7f0a0006;
+        public static final int insideOverlay=0x7f0a0007;
+        public static final int invisible=0x7f0a0001;
+        public static final int left=0x7f0a0011;
+        public static final int like_count=0x7f0a007d;
+        public static final int loading_pb=0x7f0a0052;
+        public static final int locale=0x7f0a0016;
+        public static final int login_bt=0x7f0a0098;
+        public static final int low=0x7f0a000c;
+        public static final int ltr=0x7f0a0017;
+        public static final int main0_viewpager=0x7f0a003a;
+        public static final int main1_fragment_item_imageview=0x7f0a005e;
+        public static final int main1_fragment_item_phototext=0x7f0a0062;
+        public static final int main1_fragment_item_progressbar=0x7f0a005f;
+        public static final int main1_fragment_item_start=0x7f0a0061;
+        public static final int main1_fragment_item_surfaceview=0x7f0a005d;
+        public static final int main1_fragment_item_type=0x7f0a0060;
+        public static final int main1_user_home_follower=0x7f0a006a;
+        public static final int main1_user_home_following=0x7f0a0068;
+        public static final int main1_user_home_message=0x7f0a006c;
+        public static final int main1_user_home_profile_image=0x7f0a0064;
+        public static final int main1_user_home_profile_name=0x7f0a0065;
+        public static final int main1_user_home_profile_stats=0x7f0a0066;
+        public static final int main1_user_home_profilelayout=0x7f0a0063;
+        public static final int main1_user_home_settings_layout=0x7f0a0067;
+        public static final int main1_user_profile_avatar=0x7f0a006e;
+        public static final int main1_user_profile_name=0x7f0a006f;
+        public static final int main2_header_layout=0x7f0a0070;
+        public static final int main2_list_item_layout=0x7f0a0075;
+        public static final int main2_listview=0x7f0a004f;
+        public static final int main_header_layout=0x7f0a0080;
+        public static final int main_header_logo=0x7f0a0084;
+        public static final int main_header_notif_container=0x7f0a0081;
+        public static final int main_header_notif_text=0x7f0a0082;
+        public static final int main_header_search=0x7f0a0085;
+        public static final int main_header_user=0x7f0a0083;
+        public static final int main_viewpager=0x7f0a0038;
+        public static final int menu_settings=0x7f0a009d;
+        public static final int message=0x7f0a006d;
+        public static final int message_tv=0x7f0a0056;
+        public static final int multipleChoice=0x7f0a002c;
+        public static final int multipleChoiceModal=0x7f0a002d;
+        public static final int name_tv=0x7f0a0049;
+        public static final int never=0x7f0a000f;
+        public static final int no=0x7f0a0021;
+        public static final int no_internet=0x7f0a0055;
+        public static final int none=0x7f0a0004;
+        public static final int normal=0x7f0a002b;
+        public static final int outsideInset=0x7f0a0008;
+        public static final int outsideOverlay=0x7f0a0009;
+        public static final int photo_bt=0x7f0a0073;
+        public static final int pin_container=0x7f0a0076;
+        public static final int pin_iv=0x7f0a0077;
+        public static final int pinscroll=0x7f0a0092;
+        public static final int ptr_id_header=0x7f0a0086;
+        public static final int ptr_id_image=0x7f0a0087;
+        public static final int ptr_id_last_updated=0x7f0a008b;
+        public static final int ptr_id_spinner=0x7f0a0088;
+        public static final int ptr_id_text=0x7f0a008a;
+        public static final int ptr_id_textwrapper=0x7f0a0089;
+        public static final int refresh_bt=0x7f0a0057;
+        public static final int repin_count=0x7f0a007e;
+        public static final int retry_container=0x7f0a0093;
+        public static final int right=0x7f0a0012;
+        public static final int rtl=0x7f0a0018;
+        public static final int scrolling=0x7f0a0025;
+        public static final int search_et=0x7f0a007f;
+        public static final int selected=0x7f0a009c;
+        public static final int signup_bt=0x7f0a0099;
+        public static final int singleChoice=0x7f0a002e;
+        public static final int software=0x7f0a0014;
+        public static final int subtitle_tv=0x7f0a0071;
+        public static final int textEnd=0x7f0a001d;
+        public static final int textStart=0x7f0a001e;
+        public static final int text_container=0x7f0a007a;
+        public static final int text_tv=0x7f0a0095;
+        public static final int time_scrollbar=0x7f0a005c;
+        public static final int timeline_listview=0x7f0a005b;
+        public static final int timeline_track=0x7f0a005a;
+        public static final int title_tv=0x7f0a0058;
+        public static final int try_again_empty=0x7f0a009b;
+        public static final int user_board_container=0x7f0a0078;
+        public static final int user_follow_btn=0x7f0a0033;
+        public static final int user_header_userimage=0x7f0a0035;
+        public static final int user_header_username=0x7f0a0036;
+        public static final int user_header_userstats=0x7f0a0037;
+        public static final int user_iv=0x7f0a0079;
+        public static final int user_profile=0x7f0a0031;
+        public static final int user_unfollow_btn=0x7f0a0034;
+        public static final int user_viewpager=0x7f0a004e;
+        public static final int vertical=0x7f0a0005;
+        public static final int video_bt=0x7f0a0074;
+        public static final int videoshoot_back=0x7f0a003d;
+        public static final int videoshoot_camere_framelayout=0x7f0a003f;
+        public static final int videoshoot_cancel_iv=0x7f0a0044;
+        public static final int videoshoot_done=0x7f0a003e;
+        public static final int videoshoot_photo_iv=0x7f0a0042;
+        public static final int videoshoot_progressbar=0x7f0a003c;
+        public static final int videoshoot_start_iv=0x7f0a0043;
+        public static final int videoshoot_surfaceview=0x7f0a0040;
+        public static final int videoshoot_switchbtn=0x7f0a0045;
+        public static final int videoshoot_time_relayout=0x7f0a003b;
+        public static final int videoshoot_videoview=0x7f0a0041;
+        public static final int viewEnd=0x7f0a001f;
+        public static final int viewStart=0x7f0a0020;
+        public static final int view_pager_layout=0x7f0a0039;
+        public static final int visible=0x7f0a0002;
+        public static final int yes=0x7f0a0022;
     }
     public static final class layout {
         public static final int actionbar_user=0x7f030000;
@@ -1732,29 +1732,29 @@ containing a value of this type.
         public static final int widget_loading_pin=0x7f030027;
     }
     public static final class menu {
-        public static final int activity_main=0x7f0a0000;
+        public static final int activity_main=0x7f090000;
     }
     public static final class string {
-        public static final int app_name=0x7f090000;
-        public static final int hello_world=0x7f090001;
-        public static final int menu_settings=0x7f090002;
-        public static final int ptr_last_updated=0x7f090007;
+        public static final int app_name=0x7f080000;
+        public static final int hello_world=0x7f080001;
+        public static final int menu_settings=0x7f080002;
+        public static final int ptr_last_updated=0x7f080007;
         /**  ptr_refresh 
          */
-        public static final int ptr_pull_to_refresh=0x7f090004;
-        public static final int ptr_refreshing=0x7f090006;
-        public static final int ptr_release_to_refresh=0x7f090005;
-        public static final int title_activity_main=0x7f090003;
+        public static final int ptr_pull_to_refresh=0x7f080004;
+        public static final int ptr_refreshing=0x7f080006;
+        public static final int ptr_release_to_refresh=0x7f080005;
+        public static final int title_activity_main=0x7f080003;
     }
     public static final class style {
-        public static final int AppTheme=0x7f080007;
-        public static final int ptr_arrow=0x7f080002;
-        public static final int ptr_header=0x7f080001;
-        public static final int ptr_headerContainer=0x7f080000;
-        public static final int ptr_last_updated=0x7f080006;
-        public static final int ptr_spinner=0x7f080003;
-        public static final int ptr_text=0x7f080005;
-        public static final int ptr_textwrapper=0x7f080004;
+        public static final int AppTheme=0x7f070007;
+        public static final int ptr_arrow=0x7f070002;
+        public static final int ptr_header=0x7f070001;
+        public static final int ptr_headerContainer=0x7f070000;
+        public static final int ptr_last_updated=0x7f070006;
+        public static final int ptr_spinner=0x7f070003;
+        public static final int ptr_text=0x7f070005;
+        public static final int ptr_textwrapper=0x7f070004;
     }
     public static final class styleable {
         /** Attributes that can be used with a AbsListView.
@@ -1821,7 +1821,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:cacheColorHint
+          @attr name com.baby:cacheColorHint
         */
         public static final int AbsListView_cacheColorHint = 6;
         /**
@@ -1853,7 +1853,7 @@ containing a value of this type.
 <tr><td><code>multipleChoiceModal</code></td><td>3</td><td> The list allows multiple choices in a custom selection mode. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:choiceMode
+          @attr name com.baby:choiceMode
         */
         public static final int AbsListView_choiceMode = 9;
         /**
@@ -1873,7 +1873,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:drawSelectorOnTop
+          @attr name com.baby:drawSelectorOnTop
         */
         public static final int AbsListView_drawSelectorOnTop = 1;
         /**
@@ -1892,7 +1892,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fastScrollAlwaysVisible
+          @attr name com.baby:fastScrollAlwaysVisible
         */
         public static final int AbsListView_fastScrollAlwaysVisible = 10;
         /**
@@ -1911,7 +1911,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fastScrollEnabled
+          @attr name com.baby:fastScrollEnabled
         */
         public static final int AbsListView_fastScrollEnabled = 7;
         /**
@@ -1925,7 +1925,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:listSelector
+          @attr name com.baby:listSelector
         */
         public static final int AbsListView_listSelector = 0;
         /**
@@ -1945,7 +1945,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollingCache
+          @attr name com.baby:scrollingCache
         */
         public static final int AbsListView_scrollingCache = 3;
         /**
@@ -1970,7 +1970,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:smoothScrollbar
+          @attr name com.baby:smoothScrollbar
         */
         public static final int AbsListView_smoothScrollbar = 8;
         /**
@@ -1986,7 +1986,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:stackFromBottom
+          @attr name com.baby:stackFromBottom
         */
         public static final int AbsListView_stackFromBottom = 2;
         /**
@@ -2005,7 +2005,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textFilterEnabled
+          @attr name com.baby:textFilterEnabled
         */
         public static final int AbsListView_textFilterEnabled = 4;
         /**
@@ -2035,7 +2035,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:transcriptMode
+          @attr name com.baby:transcriptMode
         */
         public static final int AbsListView_transcriptMode = 5;
         /** Attributes that can be used with a ListView.
@@ -2082,7 +2082,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dividerHeight
+          @attr name com.baby:dividerHeight
         */
         public static final int ListView_dividerHeight = 0;
         /**
@@ -2101,7 +2101,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerDividersEnabled
+          @attr name com.baby:footerDividersEnabled
         */
         public static final int ListView_footerDividersEnabled = 2;
         /**
@@ -2120,7 +2120,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:headerDividersEnabled
+          @attr name com.baby:headerDividersEnabled
         */
         public static final int ListView_headerDividersEnabled = 1;
         /**
@@ -2134,7 +2134,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:overScrollFooter
+          @attr name com.baby:overScrollFooter
         */
         public static final int ListView_overScrollFooter = 4;
         /**
@@ -2148,7 +2148,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:overScrollHeader
+          @attr name com.baby:overScrollHeader
         */
         public static final int ListView_overScrollHeader = 3;
         /** Attributes that can be used with a PinterestLikeAdapterView.
@@ -2181,7 +2181,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:plaColumnNumber
+          @attr name com.baby:plaColumnNumber
         */
         public static final int PinterestLikeAdapterView_plaColumnNumber = 0;
         /**
@@ -2197,7 +2197,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:plaColumnPaddingLeft
+          @attr name com.baby:plaColumnPaddingLeft
         */
         public static final int PinterestLikeAdapterView_plaColumnPaddingLeft = 2;
         /**
@@ -2213,7 +2213,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:plaColumnPaddingRight
+          @attr name com.baby:plaColumnPaddingRight
         */
         public static final int PinterestLikeAdapterView_plaColumnPaddingRight = 3;
         /**
@@ -2227,7 +2227,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:plaLandscapeColumnNumber
+          @attr name com.baby:plaLandscapeColumnNumber
         */
         public static final int PinterestLikeAdapterView_plaLandscapeColumnNumber = 1;
         /** Attributes that can be used with a TimeLineListView.
@@ -2254,7 +2254,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:scrollBarPanel
+          @attr name com.baby:scrollBarPanel
         */
         public static final int TimeLineListView_scrollBarPanel = 0;
         /**
@@ -2264,7 +2264,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:scrollBarPanelInAnimation
+          @attr name com.baby:scrollBarPanelInAnimation
         */
         public static final int TimeLineListView_scrollBarPanelInAnimation = 1;
         /**
@@ -2274,7 +2274,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:scrollBarPanelOutAnimation
+          @attr name com.baby:scrollBarPanelOutAnimation
         */
         public static final int TimeLineListView_scrollBarPanelOutAnimation = 2;
         /** Attributes that can be used with a View.
@@ -2567,7 +2567,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:accessibilityFocusable
+          @attr name com.baby:accessibilityFocusable
         */
         public static final int View_accessibilityFocusable = 66;
         /**
@@ -2586,7 +2586,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:alpha
+          @attr name com.baby:alpha
         */
         public static final int View_alpha = 50;
         /**
@@ -2602,7 +2602,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clickable
+          @attr name com.baby:clickable
         */
         public static final int View_clickable = 36;
         /**
@@ -2622,7 +2622,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:contentDescription
+          @attr name com.baby:contentDescription
         */
         public static final int View_contentDescription = 47;
         /**
@@ -2654,7 +2654,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:drawingCacheQuality
+          @attr name com.baby:drawingCacheQuality
         */
         public static final int View_drawingCacheQuality = 40;
         /**
@@ -2673,7 +2673,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:duplicateParentState
+          @attr name com.baby:duplicateParentState
         */
         public static final int View_duplicateParentState = 42;
         /**
@@ -2689,7 +2689,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadeScrollbars
+          @attr name com.baby:fadeScrollbars
         */
         public static final int View_fadeScrollbars = 18;
         /**
@@ -2716,7 +2716,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>0x00002000</td><td> Fades vertical edges only. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:fadingEdge
+          @attr name com.baby:fadingEdge
         */
         public static final int View_fadingEdge = 28;
         /**
@@ -2734,7 +2734,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadingEdgeLength
+          @attr name com.baby:fadingEdgeLength
         */
         public static final int View_fadingEdgeLength = 30;
         /**
@@ -2755,7 +2755,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:filterTouchesWhenObscured
+          @attr name com.baby:filterTouchesWhenObscured
         */
         public static final int View_filterTouchesWhenObscured = 39;
         /**
@@ -2776,7 +2776,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fitsSystemWindows
+          @attr name com.baby:fitsSystemWindows
         */
         public static final int View_fitsSystemWindows = 14;
         /**
@@ -2799,7 +2799,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:focusable
+          @attr name com.baby:focusable
         */
         public static final int View_focusable = 11;
         /**
@@ -2819,7 +2819,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:focusableInTouchMode
+          @attr name com.baby:focusableInTouchMode
         */
         public static final int View_focusableInTouchMode = 12;
         /**
@@ -2838,7 +2838,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:hapticFeedbackEnabled
+          @attr name com.baby:hapticFeedbackEnabled
         */
         public static final int View_hapticFeedbackEnabled = 46;
         /**
@@ -2860,7 +2860,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:id
+          @attr name com.baby:id
         */
         public static final int View_id = 0;
         /**
@@ -2894,7 +2894,7 @@ containing a value of this type.
 <tr><td><code>no</code></td><td>2</td><td> The view is not important for accessibility. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:importantForAccessibility
+          @attr name com.baby:importantForAccessibility
         */
         public static final int View_importantForAccessibility = 65;
         /**
@@ -2916,7 +2916,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isScrollContainer
+          @attr name com.baby:isScrollContainer
         */
         public static final int View_isScrollContainer = 17;
         /**
@@ -2935,7 +2935,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keepScreenOn
+          @attr name com.baby:keepScreenOn
         */
         public static final int View_keepScreenOn = 41;
         /**
@@ -2967,7 +2967,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layerType
+          @attr name com.baby:layerType
         */
         public static final int View_layerType = 61;
         /**
@@ -2994,7 +2994,7 @@ containing a value of this type.
 <tr><td><code>locale</code></td><td>3</td><td> Locale </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layoutDirection
+          @attr name com.baby:layoutDirection
         */
         public static final int View_layoutDirection = 62;
         /**
@@ -3010,7 +3010,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:longClickable
+          @attr name com.baby:longClickable
         */
         public static final int View_longClickable = 37;
         /**
@@ -3032,7 +3032,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minHeight
+          @attr name com.baby:minHeight
         */
         public static final int View_minHeight = 43;
         /**
@@ -3054,7 +3054,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minWidth
+          @attr name com.baby:minWidth
         */
         public static final int View_minWidth = 44;
         /**
@@ -3073,7 +3073,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusDown
+          @attr name com.baby:nextFocusDown
         */
         public static final int View_nextFocusDown = 34;
         /**
@@ -3092,7 +3092,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusForward
+          @attr name com.baby:nextFocusForward
         */
         public static final int View_nextFocusForward = 35;
         /**
@@ -3111,7 +3111,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusLeft
+          @attr name com.baby:nextFocusLeft
         */
         public static final int View_nextFocusLeft = 31;
         /**
@@ -3130,7 +3130,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusRight
+          @attr name com.baby:nextFocusRight
         */
         public static final int View_nextFocusRight = 32;
         /**
@@ -3149,7 +3149,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusUp
+          @attr name com.baby:nextFocusUp
         */
         public static final int View_nextFocusUp = 33;
         /**
@@ -3172,7 +3172,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:onClick
+          @attr name com.baby:onClick
         */
         public static final int View_onClick = 48;
         /**
@@ -3202,7 +3202,7 @@ containing a value of this type.
 <tr><td><code>never</code></td><td>2</td><td> Never show over-scroll effects. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:overScrollMode
+          @attr name com.baby:overScrollMode
         */
         public static final int View_overScrollMode = 49;
         /**
@@ -3234,7 +3234,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:padding
+          @attr name com.baby:padding
         */
         public static final int View_padding = 4;
         /**
@@ -3252,7 +3252,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingBottom
+          @attr name com.baby:paddingBottom
         */
         public static final int View_paddingBottom = 8;
         /**
@@ -3270,7 +3270,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingEnd
+          @attr name com.baby:paddingEnd
         */
         public static final int View_paddingEnd = 10;
         /**
@@ -3288,7 +3288,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingLeft
+          @attr name com.baby:paddingLeft
         */
         public static final int View_paddingLeft = 5;
         /**
@@ -3306,7 +3306,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingRight
+          @attr name com.baby:paddingRight
         */
         public static final int View_paddingRight = 7;
         /**
@@ -3324,7 +3324,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingStart
+          @attr name com.baby:paddingStart
         */
         public static final int View_paddingStart = 9;
         /**
@@ -3342,7 +3342,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingTop
+          @attr name com.baby:paddingTop
         */
         public static final int View_paddingTop = 6;
         /**
@@ -3362,7 +3362,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>0x00002000</td><td> Fades vertical edges only. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:requiresFadingEdge
+          @attr name com.baby:requiresFadingEdge
         */
         public static final int View_requiresFadingEdge = 29;
         /**
@@ -3378,7 +3378,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:rotation
+          @attr name com.baby:rotation
         */
         public static final int View_rotation = 55;
         /**
@@ -3394,7 +3394,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:rotationX
+          @attr name com.baby:rotationX
         */
         public static final int View_rotationX = 56;
         /**
@@ -3410,7 +3410,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:rotationY
+          @attr name com.baby:rotationY
         */
         public static final int View_rotationY = 57;
         /**
@@ -3433,7 +3433,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:saveEnabled
+          @attr name com.baby:saveEnabled
         */
         public static final int View_saveEnabled = 38;
         /**
@@ -3449,7 +3449,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scaleX
+          @attr name com.baby:scaleX
         */
         public static final int View_scaleX = 58;
         /**
@@ -3465,7 +3465,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scaleY
+          @attr name com.baby:scaleY
         */
         public static final int View_scaleY = 59;
         /**
@@ -3483,7 +3483,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollX
+          @attr name com.baby:scrollX
         */
         public static final int View_scrollX = 2;
         /**
@@ -3501,7 +3501,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollY
+          @attr name com.baby:scrollY
         */
         public static final int View_scrollY = 3;
         /**
@@ -3517,7 +3517,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarAlwaysDrawHorizontalTrack
+          @attr name com.baby:scrollbarAlwaysDrawHorizontalTrack
         */
         public static final int View_scrollbarAlwaysDrawHorizontalTrack = 26;
         /**
@@ -3533,7 +3533,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarAlwaysDrawVerticalTrack
+          @attr name com.baby:scrollbarAlwaysDrawVerticalTrack
         */
         public static final int View_scrollbarAlwaysDrawVerticalTrack = 27;
         /**
@@ -3549,7 +3549,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarDefaultDelayBeforeFade
+          @attr name com.baby:scrollbarDefaultDelayBeforeFade
         */
         public static final int View_scrollbarDefaultDelayBeforeFade = 20;
         /**
@@ -3565,7 +3565,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarFadeDuration
+          @attr name com.baby:scrollbarFadeDuration
         */
         public static final int View_scrollbarFadeDuration = 19;
         /**
@@ -3583,7 +3583,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarSize
+          @attr name com.baby:scrollbarSize
         */
         public static final int View_scrollbarSize = 21;
         /**
@@ -3613,7 +3613,7 @@ containing a value of this type.
 <tr><td><code>outsideInset</code></td><td>0x03000000</td><td> Edge of the view and inset </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:scrollbarStyle
+          @attr name com.baby:scrollbarStyle
         */
         public static final int View_scrollbarStyle = 16;
         /**
@@ -3625,7 +3625,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarThumbHorizontal
+          @attr name com.baby:scrollbarThumbHorizontal
         */
         public static final int View_scrollbarThumbHorizontal = 22;
         /**
@@ -3637,7 +3637,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarThumbVertical
+          @attr name com.baby:scrollbarThumbVertical
         */
         public static final int View_scrollbarThumbVertical = 23;
         /**
@@ -3649,7 +3649,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarTrackHorizontal
+          @attr name com.baby:scrollbarTrackHorizontal
         */
         public static final int View_scrollbarTrackHorizontal = 24;
         /**
@@ -3661,7 +3661,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarTrackVertical
+          @attr name com.baby:scrollbarTrackVertical
         */
         public static final int View_scrollbarTrackVertical = 25;
         /**
@@ -3681,7 +3681,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>vertical</code></td><td>0x00000200</td><td> Displays vertical scrollbar only. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:scrollbars
+          @attr name com.baby:scrollbars
         */
         public static final int View_scrollbars = 15;
         /**
@@ -3700,7 +3700,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:soundEffectsEnabled
+          @attr name com.baby:soundEffectsEnabled
         */
         public static final int View_soundEffectsEnabled = 45;
         /**
@@ -3723,7 +3723,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:tag
+          @attr name com.baby:tag
         */
         public static final int View_tag = 1;
         /**
@@ -3766,7 +3766,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:textAlignment
+          @attr name com.baby:textAlignment
         */
         public static final int View_textAlignment = 64;
         /**
@@ -3806,7 +3806,7 @@ containing a value of this type.
 <tr><td><code>locale</code></td><td>5</td><td> The paragraph direction is coming from the system Locale. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:textDirection
+          @attr name com.baby:textDirection
         */
         public static final int View_textDirection = 63;
         /**
@@ -3827,7 +3827,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:transformPivotX
+          @attr name com.baby:transformPivotX
         */
         public static final int View_transformPivotX = 53;
         /**
@@ -3848,7 +3848,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:transformPivotY
+          @attr name com.baby:transformPivotY
         */
         public static final int View_transformPivotY = 54;
         /**
@@ -3869,7 +3869,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:translationX
+          @attr name com.baby:translationX
         */
         public static final int View_translationX = 51;
         /**
@@ -3890,7 +3890,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:translationY
+          @attr name com.baby:translationY
         */
         public static final int View_translationY = 52;
         /**
@@ -3910,7 +3910,7 @@ containing a value of this type.
 <tr><td><code>right</code></td><td>2</td><td> Place the scroll bar on the right. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:verticalScrollbarPosition
+          @attr name com.baby:verticalScrollbarPosition
         */
         public static final int View_verticalScrollbarPosition = 60;
         /**
@@ -3930,7 +3930,7 @@ containing a value of this type.
 <tr><td><code>gone</code></td><td>2</td><td> Completely hidden, as if the view had not been added. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:visibility
+          @attr name com.baby:visibility
         */
         public static final int View_visibility = 13;
         /** 
@@ -4005,7 +4005,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:addStatesFromChildren
+          @attr name com.baby:addStatesFromChildren
         */
         public static final int ViewGroup_addStatesFromChildren = 7;
         /**
@@ -4024,7 +4024,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:alwaysDrawnWithCache
+          @attr name com.baby:alwaysDrawnWithCache
         */
         public static final int ViewGroup_alwaysDrawnWithCache = 6;
         /**
@@ -4045,7 +4045,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:animateLayoutChanges
+          @attr name com.baby:animateLayoutChanges
         */
         public static final int ViewGroup_animateLayoutChanges = 0;
         /**
@@ -4066,7 +4066,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:animationCache
+          @attr name com.baby:animationCache
         */
         public static final int ViewGroup_animationCache = 4;
         /**
@@ -4088,7 +4088,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clipChildren
+          @attr name com.baby:clipChildren
         */
         public static final int ViewGroup_clipChildren = 1;
         /**
@@ -4107,7 +4107,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clipToPadding
+          @attr name com.baby:clipToPadding
         */
         public static final int ViewGroup_clipToPadding = 2;
         /**
@@ -4130,7 +4130,7 @@ containing a value of this type.
 <tr><td><code>blocksDescendants</code></td><td>2</td><td> The ViewGroup will block its descendants from receiving focus. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:descendantFocusability
+          @attr name com.baby:descendantFocusability
         */
         public static final int ViewGroup_descendantFocusability = 8;
         /**
@@ -4145,7 +4145,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layoutAnimation
+          @attr name com.baby:layoutAnimation
         */
         public static final int ViewGroup_layoutAnimation = 3;
         /**
@@ -4173,7 +4173,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>all</code></td><td>0x3</td><td> The drawing cache is always persisted. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:persistentDrawingCache
+          @attr name com.baby:persistentDrawingCache
         */
         public static final int ViewGroup_persistentDrawingCache = 5;
         /**
@@ -4200,7 +4200,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:splitMotionEvents
+          @attr name com.baby:splitMotionEvents
         */
         public static final int ViewGroup_splitMotionEvents = 9;
     };
