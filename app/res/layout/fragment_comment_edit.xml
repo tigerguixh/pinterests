@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:padding="10dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:background="@drawable/card_bg_bottom"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+		android:id="@+id/comment_et"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="64.0dip"
+		android:hint="Add a comment..."
+		android:completionThreshold="1"
+		android:layout_centerVertical="true"
+		android:inputType="textCapSentences|textAutoCorrect"
+		android:imeOptions="actionSend|flagNoExtractUi"
+		android:imeActionLabel="submit" 
+		android:textSize="15.0dip"
+        android:textColor="@color/text_dark"
+        android:background="@drawable/edit_text_pinterest" />
+    <Button
+		android:id="@+id/comment_bt"
+		android:text="评论"
+		android:layout_alignParentRight="true"
+		android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_plain_button"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:duplicateParentState="false"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:minWidth="44.0dip"
+        android:singleLine="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

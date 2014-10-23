@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_header_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dip"
+    android:background="@drawable/main_header_actionbar"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/main_header_notif_container"
+        android:layout_width="60.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/touch_clear_bg"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_tab_me_notification" />
+
+        <TextView
+            android:id="@+id/main_header_notif_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1.0dip"
+            android:layout_marginLeft="3.0dip"
+            android:background="@null"
+            android:shadowColor="#26000000"
+            android:shadowDy="1.0"
+            android:text="5"
+            android:textColor="#fff"
+            android:textSize="10dip" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="60.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/touch_clear_bg"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/main_header_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_tab_me" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/main_header_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:src="@drawable/app_logo_selected" />
+
+    <FrameLayout 
+        android:layout_width="60.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/touch_clear_bg"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/main_header_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_tab_search" />
+    </FrameLayout>
+    
+
+</LinearLayout>

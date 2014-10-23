@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pinterest="http://schemas.android.com/apk/res/com.pinterest">
+    <com.pinterest.ui.grid.AdapterEmptyView
+		android:id="@+id/empty_vw"
+		android:visibility="gone"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+    <!-- <com.pinterest.ui.grid.PinterestAdapterView
+		android:id="@+id/pingridview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		pinterest:brickPadding="10dp" 
+		pinterest:additionalOuterBrickPadding="10dp" 
+		pinterest:numColumns="2" 
+		android:layout_marginTop="6.0dip"" />
+    <com.pinterest.ui.grid.AdapterFooterView
+		android:id="@+id/footer"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" /> -->
+</merge>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_pb"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateDrawable="@drawable/pin_spin_animation" />
+
+    <Button
+        android:id="@+id/try_again_empty"
+        android:textSize="12.0dip"
+        android:textStyle="bold"
+        android:textColor="#3f000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/button_hidden_selectable"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="32.0dip"
+        android:layout_margin="5dp"
+        android:singleLine="true"
+        android:drawablePadding="5dp"
+        android:text="Tap to retry" />
+
+</LinearLayout>

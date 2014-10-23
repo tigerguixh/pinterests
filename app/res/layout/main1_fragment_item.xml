@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/widget_selectable_bg"
+            android:foreground="@drawable/card_fg" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_bg_top" >
+
+                    <SurfaceView
+                        android:id="@+id/main1_fragment_item_surfaceview"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="#0000"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/main1_fragment_item_imageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/camera_icon"
+                        android:visibility="visible" />
+
+                    <ProgressBar
+                        android:id="@+id/main1_fragment_item_progressbar"
+                        style="@android:style/Widget.ProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:indeterminate="false"
+                        android:indeterminateDrawable="@drawable/pin_spin_animation"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/main1_fragment_item_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/ic_type_video" />
+
+                    <ImageView
+                        android:id="@+id/main1_fragment_item_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_video_play"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/main1_fragment_item_phototext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.12"
+                    android:maxLines="3"
+                    android:text="照片的描述"
+                    android:textColor="#af000000"
+                    android:textSize="11.0dip"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:background="@color/light_gray_solid" />
+
+                <include layout="@layout/main2_list_item_countbar" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:background="@color/light_gray_solid" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

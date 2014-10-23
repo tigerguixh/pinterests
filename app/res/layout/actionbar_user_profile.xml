@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/user_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/card_bg_top"
+        android:padding="10dp" >
+
+        <FrameLayout
+            android:id="@+id/button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp" >
+
+            <Button
+                android:id="@+id/user_follow_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_red"
+                android:text="关注"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/user_unfollow_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button"
+                android:duplicateParentState="false"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:minWidth="44.0dip"
+                android:singleLine="true"
+                android:text="未关注"
+                android:textColor="@color/text_plain_button"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/user_header_userimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_contact_picture"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/button_container"
+            android:layout_toRightOf="@id/user_header_userimage" >
+
+            <TextView
+                android:id="@+id/user_header_username"
+                android:text="username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_header_userstats"
+                android:text="user_header_userstats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_header_username"
+                android:layout_marginTop="-2.0dip"
+                android:textColor="@color/text_light"
+                android:textSize="12dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</merge>

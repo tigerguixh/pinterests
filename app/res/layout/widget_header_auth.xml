@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_auth"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16.0dip" >
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.12"
+        android:text="欢迎"
+        android:textColor="#af000000"
+        android:textSize="15.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:ellipsize="none"
+        android:maxLines="1000000"
+        android:singleLine="false"
+        android:text="This_is_your_home!"
+        android:textColor="#af000000"
+        android:textSize="12.0dip" />
+
+    <Button
+        android:id="@+id/get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_red"
+        android:text="get_started"
+        android:textColor="#fff" />
+"
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/videoshoot_time_relayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" >
+
+        <ProgressBar
+            android:id="@+id/videoshoot_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progress="0"
+            android:progressDrawable="@drawable/player_progress_bar_bg" />
+        <ImageView
+            	android:id="@+id/videoshoot_back"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:visibility="visible"     
+                android:src="@drawable/ic_menu_cancel" />
+        <ImageView
+            	android:id="@+id/videoshoot_done"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"     
+                android:src="@drawable/ic_menu_done_big" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/videoshoot_camere_framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
+
+        <SurfaceView
+            android:id="@+id/videoshoot_surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" >
+        </SurfaceView>
+
+        <VideoView
+            android:id="@+id/videoshoot_videoview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </VideoView>
+
+        <ImageView
+            android:id="@+id/videoshoot_photo_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/videoshoot_start_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/videoshoot_cancel_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/videoshoot_switchbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

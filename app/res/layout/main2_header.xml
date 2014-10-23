@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main2_header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/card_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:maxLines="3"
+        android:singleLine="false"
+        android:text="Come and Create for Your Lovely Baby!"
+        android:textColor="#af000000" />
+
+    <TextView
+        android:id="@+id/subtitle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="Come see more pins and start pinning!"
+        android:textColor="#af000000"
+        android:textSize="15.0dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/photo_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/button"
+            android:text="传照片"
+            android:textColor="#8c000000"
+            android:textSize="16.0dip" />
+
+        <Button
+            android:id="@+id/video_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/button_red"
+            android:text="拍视频"
+            android:textColor="#fff"
+            android:textSize="16.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView 
+        android:id="@+id/icon_iv" 
+        android:visibility="visible" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="24.0dip" />
+    <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"  
+        android:gravity="center_horizontal" 
+        android:id="@+id/title_tv" 
+        android:layout_marginBottom="8.0dip" 
+        android:textSize="16.0dip"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"
+        android:shadowDx="0.0" />
+    <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"   
+        android:gravity="center_horizontal" 
+        android:id="@+id/message_tv" 
+        android:textSize="12.0dip"
+        android:textColor="@color/text_light"
+        android:shadowDx="1.0"
+        android:lineSpacingMultiplier="1.2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"  
+        android:gravity="center" 
+        android:id="@+id/action_bt" 
+        android:visibility="visible" 
+        android:layout_marginTop="24.0dip" 
+        android:textSize="16.0dip"
+        android:textStyle="bold"
+        android:textColor="@color/text_plain_button"
+        android:ellipsize="end"
+        android:background="@drawable/button"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:duplicateParentState="false"
+        android:minWidth="44.0dip"
+        android:singleLine="true"
+        android:layout_centerVertical="true" />
+</merge>

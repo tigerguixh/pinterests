@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- timeline on left -->
+
+    <!-- <include
+        android:id="@+id/main1_actionbar_user"
+        layout="@layout/main1_user_home" /> -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/timeline_track"
+            android:layout_width="4dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="42.0dip"
+            android:layout_marginTop="2dp"
+            android:background="#ff0000"
+            android:scaleType="fitXY"
+            android:src="@drawable/timeline_track" />
+    </RelativeLayout>
+
+    <com.baby.widget.TimeLineListView
+        xmlns:asd="http://schemas.android.com/apk/res/com.baby"
+        android:id="@+id/timeline_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#0000"
+        android:divider="#0000"
+        android:dividerHeight="4.0px"
+        android:listSelector="#0000"
+        android:scrollbars="vertical"
+        android:scrollingCache="false"
+        asd:scrollBarPanel="@layout/time_scrollbar"
+        asd:scrollBarPanelInAnimation="@anim/in"
+        asd:scrollBarPanelOutAnimation="@anim/out" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/time_scrollbar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="40dp"
+            layout="@layout/time_scrollbar" />
+    </RelativeLayout>
+
+</RelativeLayout>

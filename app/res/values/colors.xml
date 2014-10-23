@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_grid">#fff2f2f2</color>
+    <color name="bg_grid_trans">#ccf2f2f2</color>
+    <color name="bg_grid_dark">#ffdbdbdb</color>
+
+    <item name="bg_touch" type="color">@color/lightest_gray</item>
+    <item name="bg_touch_image" type="color">@color/light_gray</item>
+
+    <color name="light_gray">#1a000000</color>
+    <color name="light_gray_solid">#ffe5e5e5</color>
+    <color name="lightest_gray">#0a000000</color>
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="text_light_inverted">#50ffffff</color>
+    <color name="text_red">#ffc31c22</color>
+    <color name="text_plain_button">#8c000000</color>
+    <color name="bg_overlay">#7f000000</color>
+    <color name="bg_image_loading">#fffafafa</color>
+    <color name="bg_special">#fffff8ea</color>
+    <color name="lightest_gray_solid">#fff0f0f0</color>
+    <color name="button_shadow_red">#26000000</color>
+
+</resources>

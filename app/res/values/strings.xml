@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Camily</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Camily</string>
+    
+    <!-- ptr_refresh -->
+    <string name="ptr_pull_to_refresh">下拉刷新</string>
+    <string name="ptr_release_to_refresh">松开刷新</string>
+    <string name="ptr_refreshing">正在更新数据</string>
+    <string name="ptr_last_updated">上次更新时间: %1$s</string>    
+    
+
+</resources>

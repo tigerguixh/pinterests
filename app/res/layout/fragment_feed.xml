@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/widget_bg_light"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/widget_selectable_bg"
+                android:foreground="@drawable/card_fg" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_bg_top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ceshi3" />
+
+                    <TextView
+                        android:id="@+id/desc_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:ellipsize="end"
+                        android:lineSpacingMultiplier="1.12"
+                        android:maxLines="3"
+                        android:text="照片的描述"
+                        android:textColor="#af000000"
+                        android:textSize="11.0dip"
+                        android:visibility="visible" />
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:background="@color/light_gray_solid" />
+
+                </LinearLayout>
+            </FrameLayout>
+            
+            <include layout="@layout/fragment_comments"/>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/card_bg"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/icon_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ceshi"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:text="name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/icon_iv"
+            android:layout_marginBottom="2.0dip"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1.0dip"
+            android:layout_toRightOf="@id/icon_iv"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comment_tv"
+            android:text="comment_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/name_tv"
+            android:layout_below="@id/name_tv"
+            android:layout_marginBottom="1.0dip"
+            android:lineSpacingMultiplier="1.1"
+            android:maxLines="100"
+            android:singleLine="false"
+            android:textColor="@color/text_dark"
+            android:textColorLink="@color/text_dark"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:text="date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/comment_tv"
+            android:layout_alignRight="@id/comment_tv"
+            android:layout_below="@id/comment_tv"
+            android:textColor="@color/text_light"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/light_gray_solid" />
+
+</merge>

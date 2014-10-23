@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_user"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    android:orientation="vertical" >
+    <include layout="@layout/actionbar_user_profile"/>
+    <View
+		android:id="@+id/divider"
+		android:background="@color/light_gray_solid"
+		android:layout_width="fill_parent"
+		android:layout_height="1.0px" />
+    <include layout="@layout/actionbar_user_tabs"/>
+    
+    
+
+</LinearLayout>

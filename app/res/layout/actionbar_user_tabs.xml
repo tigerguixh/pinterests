@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+d/tabbar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/card_bg_middle" >
+
+        <Button
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/touch_clear_bg"
+            android:text="我喜欢的" />
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/light_gray" />
+
+        <Button
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/touch_clear_bg"
+            android:text="成长记录" />
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/light_gray" />
+
+        <Button
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/touch_clear_bg"
+            android:text="个人资料" />
+
+    </LinearLayout>
+
+</merge>
